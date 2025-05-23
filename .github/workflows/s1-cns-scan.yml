@@ -36,7 +36,7 @@ jobs:
           REPO_URL: ${{ github.server_url }}
 
       - name: Run IaC Scanner
-        run:  s1-cns-cli scan iac -d $PWD --publish-result --repo-full-name $REPO_FULL_NAME  --repo-url $REPO_URL/$REPO_FULL_NAME --branch $BRANCH --provider GITHUB
+        run:  s1-cns-cli scan iac -d $PWD --publish-result --repo-full-name $REPO_FULL_NAME  --repo-url $REPO_URL/$REPO_FULL_NAME --branch $BRANCH --provider GITHUB --debug
         id: iac-scanner
         continue-on-error: true
         env:
