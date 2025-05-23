@@ -1,0 +1,8 @@
+{
+  "name": "trustic",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "write-excel-file": "^2.3.2"
+  }
+}
