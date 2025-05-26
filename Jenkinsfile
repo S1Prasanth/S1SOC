@@ -15,7 +15,7 @@ pipeline {
             
             steps {
                 echo 'Starting s1-cns-cli'
-                sh 's1-cns-cli config --service-user-api-token $TOKEN --management-console-url <mgmt-console-url> --scope-type <scope-type> --scope-id <scope-id> --tag <scanner-policy-tag>'
+                sh 's1-cns-cli config --service-user-api-token $TOKEN --management-console-url https://usea1-purple.sentinelone.net --scope-type ACCOUNT --scope-id 1878467188785021855 --tag code:code'
             
                 sh 's1-cns-cli  scan secret -d $WORKSPACE --pull-request origin/$SOURCE_BRANCH  origin/$DESTINATION_BRANCH'
             }
