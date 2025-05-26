@@ -14,6 +14,7 @@ pipeline {
             }
             steps {
                 script {
+                    sh 'git checkout origin/$SOURCE_BRANCH'
                     echo 'Starting s1-cns-cli'
                     
                     sh 's1-cns-cli config --service-user-api-token $TOKEN --management-console-url https://usea1-purple.sentinelone.net --scope-type ACCOUNT --scope-id 1878467188785021855 --tag code:code'
