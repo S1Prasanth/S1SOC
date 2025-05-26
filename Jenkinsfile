@@ -17,7 +17,7 @@ pipeline {
                 echo 'Starting s1-cns-cli'
                 sh 's1-cns-cli config --service-user-api-token $TOKEN --management-console-url <mgmt-console-url> --scope-type <scope-type> --scope-id <scope-id> --tag <scanner-policy-tag>'
             
-                sh 's1-cns-cli  scan secret -d $WORKSPACE --pull-request origin/$SOURCE_BRANCH  origin/$DESTINATION_BRANCH
+                sh 's1-cns-cli  scan secret -d $WORKSPACE --pull-request origin/$SOURCE_BRANCH  origin/$DESTINATION_BRANCH'
             }
         }
     }
