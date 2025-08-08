@@ -4,7 +4,7 @@ pipeline {
         stage('Configure and Scan') {
             agent {
                 docker {
-                    image 'pingsafe/s1-shift-left-cli:0.4.7'
+                    image 'pingsafe/s1-shift-left-cli:0.4.8'
                     args '--entrypoint=' // Ensures the default entrypoint is not used, allowing direct command execution
                 }
             }
