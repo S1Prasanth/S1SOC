@@ -10,7 +10,7 @@ jobs:
   s1-shift-left-cli:
     runs-on: ubuntu-latest
     container:
-      image: pingsafe/s1-shift-left-cli:0.4.7
+      image: pingsafe/s1-shift-left-cli:0.5.4
       options: --entrypoint ""
 
     steps:
