@@ -1,0 +1,54 @@
+Access Key ID: AKIAIOSFODNN7EXAMPLE
+Secret Access Key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+GOOGLE_API_KEY - AIzaSyC-ExampleKeyForTestingPurposes_01
+
+AZURE_API_KEYS - 8a0e5c9b7d2f4e1a9c3b5d8e7f0a1c2d
+
+DIGITALOCEAN_TOKEN - dop_v1_5b8e9c1d2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9
+
+
+
+GITHUB_TOKEN - gho_ExampleOAuthTokenForTesting123456
+
+SLACK_BOT_TOKEN - xoxb-123456789012-1234567890123-4sExampleTokenForSlack
+
+OPENAI_API_KEY - sk-proj-1234567890abcdef1234567890abcdef1234567890abcdef
+
+STRIPE_SECRET_KEY - sk_test_51Mz9 ExampleKeyForTestingPurposes123
+
+NPM_API_KEY - npm_ExampleTokenForRegistryAuthentication
+
+
+
+TWILIO_KEYS - 1234567890abcdef1234567890abcdef (32 hex)
+
+SENDGRID_KEY - SG.ExampleKey.1234567890abcdef1234567890abcdef1234567890abcdef
+
+MAILCHIMP_API_KEY - 1234567890abcdef1234567890abcdef-us19
+
+HUBSPOT_API_KEY - pat-na1-12345678-1234-1234-1234-1234567890ab
+
+
+
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEA1234567890abcdef... (Base64 Data) ...
+...ExampleKeyDataForTestingPurposes...
+-----END RSA PRIVATE KEY-----
+
+
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmU... (Base64 Data) ...
+-----END OPENSSH PRIVATE KEY-----
+
+
+
+FACEBOOK_ACCESS_TOKEN: EAACEdEose0cBA...
+
+DROPBOX_ACCESS_TOKEN: sl.ExampleDropboxTokenStringForTestingPurposes123456
+
+HEROKU_API_KEY: 00000000-0000-0000-0000-000000000000
+
+DISCORD_BOT_TOKEN: MTAwMDAwMDAwMDAwMDAwMDAwMA.G5nS9B.ExampleSignatureHashes123
+
+SQUARE_ACCESS_TOKEN: EAAA... or sq0atp- followed by characters
